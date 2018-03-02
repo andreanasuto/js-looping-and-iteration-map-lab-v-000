@@ -21,9 +21,9 @@ function nameToAttributes(array) {
 }
 
 function attributesToPhrase(array) {
-  array.map(function createPhrase(element) {
+  const newarray = array.map(function createPhrase(element) {
     console.log(element.name);
     return `${element.name} is from ${element.hometown}`
-
   })
+  
 }
