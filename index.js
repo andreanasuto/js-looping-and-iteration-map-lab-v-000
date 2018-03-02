@@ -5,7 +5,7 @@
 // }
 
 function lowerCaseDrivers(drivers) {
-  const lowercasedrivers = drivers.map(drivers,
+  const lowercasedrivers = drivers.map(
     function (name) {
     return Array.of(name.toLowerCase())
     } )
