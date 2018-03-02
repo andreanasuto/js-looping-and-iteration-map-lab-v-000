@@ -9,6 +9,11 @@ function lowerCaseDrivers(drivers) {
     function (name) {
     return name.toLowerCase()
     } )
-  console.log(lowercasedrivers);
   return lowercasedrivers
+}
+
+function nameToAttributes(array) {
+  const newobject = array.map {
+  return Object.assign({}, name, firstName: name.split(' ')[0] && lastName: name.split(' ')[0
+  }
 }
