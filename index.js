@@ -23,5 +23,6 @@ function nameToAttributes(array) {
 function attributesToPhrase(array) {
   array.map(function createPhrase(element) {
     return `${element.name} is from ${element.hometown}`
+    console.log(return);
   })
 }
