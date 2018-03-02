@@ -1,6 +1,6 @@
 // Code your solution in this file.
 function lowerCaseDrivers(drivers) {
-  drivers.map(function (name) {
+  drivers.filter(function (name) {
     name.toLowerCase()
   })
 }
