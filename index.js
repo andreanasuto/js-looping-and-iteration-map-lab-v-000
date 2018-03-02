@@ -9,5 +9,6 @@ function lowerCaseDrivers(drivers) {
     function (name) {
     return Array.of(name.toLowerCase())
     } )
+  console.log(lowercasedrivers);
   return lowercasedrivers
 }
