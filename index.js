@@ -3,4 +3,5 @@ function lowerCaseDrivers(drivers) {
   const lowerCaseDrivers = drivers.map(function (name) {
    name.toLowerCase()
   })
+  console.log(lowerCaseDrivers);
 }
