@@ -10,4 +10,5 @@ function lowerCaseDrivers(drivers) {
     return name.toLowerCase()
     } )
   console.log(lowercasedrivers);
+  return lowercasedrivers
 }
