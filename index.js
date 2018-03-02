@@ -25,5 +25,4 @@ function attributesToPhrase(array) {
     return `${element.name} is from ${element.hometown}`
   })
   return newarray
-  console.log(newarray);
 }
