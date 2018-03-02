@@ -2,4 +2,5 @@
 function lowerCaseDrivers(drivers) {
   const lowercasedrivers = Array.from(drivers, name => name.toLowerCase())
   console.log(lowercasedrivers)
+  return lowercasedrivers
 }
