@@ -1,7 +1,7 @@
 // Code your solution in this file.
 function lowerCaseDrivers(drivers) {
-  const lowerCaseDrivers = drivers.map(function (name) {
+  const lowercasedrivers = drivers.map(function (name) {
    name.toLowerCase()
   })
-  console.log(lowerCaseDrivers);
+  console.log(lowercasedrivers);
 }
