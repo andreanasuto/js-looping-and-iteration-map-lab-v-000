@@ -8,7 +8,7 @@ function lowerCaseDrivers(drivers) {
   const lowercasedrivers = drivers.map(drivers,
     function (name) {
       name.toLowerCase()
+      console.log(name);
     } )
-    console.log(lowercasedrivers);
   return lowercasedrivers
 }
