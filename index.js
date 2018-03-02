@@ -11,7 +11,3 @@ function lowerCaseDrivers(drivers) {
     } )
   return lowercasedrivers
 }
-
-function functionName() {
-
-}
