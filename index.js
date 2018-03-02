@@ -14,9 +14,9 @@ function lowerCaseDrivers(drivers) {
 
 function nameToAttributes(array) {
   const newobject = array.map( function (name) {
+      console.log(name);
   return Object.assign({}, name, {
   firstName: name.split(' ')[0], lastName: name.split(' ')[1]})
-  console.log(name);
   })
   console.log(newobject);
 }
